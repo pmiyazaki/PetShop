@@ -1,0 +1,432 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:wght@400;700;800&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Nunito', 'Helvetica Neue';
+    font-size: 20px;
+    font-weight: 400;
+    color: #757575;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    width: 100vw;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    box-shadow: 0px 4px 14px 0px rgba(0, 0, 0, 0.25);
+}
+
+header .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #FFBE51;
+    max-width: 100%;
+}
+
+header .container .logo a img{
+    width: 200px;
+    max-width: 100%;
+    margin-left: 50px;
+    cursor: pointer;
+}
+
+header .container .menu {
+    width: 550px;
+    max-width: 100%;
+
+}
+
+header .menu nav ul {
+    list-style-type: none;
+    text-align: center;
+    margin-right: 50px;
+    max-width: 100%;
+}
+
+header .container nav ul li {
+    display: inline-block;
+    padding: 15px;
+}
+
+header .container nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    max-width: 100%;
+    cursor: pointer;
+}
+
+section .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 50px 0;
+}
+
+section .container h1 {
+    color: #FFBE51;
+    font-size: 40px;
+    font-weight: 700;
+    text-align: center;
+    align-items: center;
+}
+
+section .container .texto1 {
+    font-size: 40px;
+    font-weight: 800;
+    text-transform: uppercase;
+    width: 500px;
+    max-width: 100%;
+    border: none;
+}
+
+section .container .banner {
+    width: 500px;
+    max-width: 100%;
+    border: none;
+}
+
+section .container .banner img {
+    width: 500px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+section.servicos .container {
+    background-color: #E5E5E5;
+    font-size: 40px;
+    text-align: center;
+    align-items: center;
+    max-width: 100%;
+    color: #000000;
+    margin-bottom: 0;
+}
+
+section.conteudo .container {
+    background-color:#E5E5E5;
+    color: #000000;
+    font-size: 20px;
+    margin-top: 0;
+    padding-bottom: 40px;
+}
+section.conteudo article .banho {
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+section.servicos article .detalhes {
+    font-size: 20px;
+    color: #0000;
+    background-color:#E5E5E5;
+    align-items: center;
+    justify-content: center;
+}
+
+.detalhes h2 {
+    margin-bottom: 0;
+}
+
+section .texto2 {
+    width: 500px;
+    max-width: 100%;
+    border: none;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+section .texto2 h2 {
+    font-weight: 700;
+    font-size: 25px;
+}
+
+section.servico-banho .container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width:100%;
+}
+
+section.servico-banho .banho-completo {
+    width: 300px;
+    height: 300px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+section.servico-banho .preco {
+    width: 500px;
+    max-width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+
+section.servico-banho .preco h2 {
+    font-size: 40px;
+    font-weight: 700;
+    color:#000000;
+}
+
+section.servico-banho .preco small {
+    font-size: 30px;
+    color:#000000;
+}
+
+section.servico-banho .preco button {
+    border: none;
+    background-color: #FFC107;
+    width: 260px;
+    height: 30px;
+    max-width: 100%;
+    color: #fff;
+    cursor: pointer;
+
+}
+
+hr {
+    width: 90%;
+    max-width: 100%;
+    fill: solid;
+    height: 5px;
+    background-color: #C4C4C4;
+    border: none;
+    
+}
+
+section.contato .container {
+    display: flex;
+    justify-content: space-around;
+    max-width:100%;
+    align-items: center;
+    font-size: 16px;
+}
+
+section.contato .formulario h1 {
+    font-size: 40px;
+    font-weight: 800;
+    color: #FFC107;
+    margin-bottom: 50px;
+    margin-top: 0;
+    max-width:100%;
+}
+
+section.contato .formulario form {
+    width: 400px;
+    max-width: 100%;
+    align-items: center;
+}
+
+section.contato .formulario form input {
+    width: 400px;
+    height: 30px;
+    max-width: 100%;
+    margin: 8px 0;
+    resize: none;
+}
+
+section.contato .formulario form textarea {
+    width: 400px;
+    height: 100px;
+    max-width:100%;
+    margin: 8px 0;
+    resize: none;
+}
+
+section.contato .formulario button {
+    border: none;
+    background-color: #FFC107;
+    width: 400px;
+    max-width: 100%;
+    height: 30px;
+    color:#fff;
+    cursor: pointer;
+}
+
+section.contato .contato-mapa {
+    width: 600px;
+    max-width: 100%;
+}
+
+section.contato .contato-mapa a {
+    text-decoration: none;
+    color: #000000;
+    cursor: pointer;
+}
+
+section.contato .contato-mapa p {
+    margin: 1px;
+}
+
+section.contato .contato-mapa iframe {
+    margin-top: 20px;
+    margin-bottom: 0;
+    border: none;
+    width: 500px;
+    height: 150px;
+    max-width: 100%;
+}
+
+section .login {
+    border: 10px solid #fff;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.25);
+    width: 350px;
+    height: 400px;
+    max-width: 100%;
+    padding: 30px;
+}
+
+section .cadastro {
+    border: 10px solid #fff;
+    box-shadow: 0px 2px 6px 1px rgba(0, 0, 0, 0.25);
+    width: 400px;
+    height: 450px;
+    max-width: 100%;
+    padding: 30px;
+}
+
+section .login h2,
+section .cadastro h2 {
+    font-size: 40px;
+    font-weight:800;
+    color: #FFC107;
+    text-align: center;
+}
+
+section .login form {
+    width: 200px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+section .cadastro form {
+    width: 250px;
+    max-width: 100%;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+    padding: 5px;
+}
+
+section .login form input {
+    font-size: 14px;
+    margin: 6px;
+}
+
+section .cadastro form input {
+    margin: 6px;
+    width: 250px;
+    max-width: 100%;
+}
+
+section .login button {
+    width: 180px;
+    height: 22px;
+    max-width: 100%;
+    align-content: center;
+    background-color: #FFC107;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 6px;
+    color: #fff;
+}
+
+section .cadastro button {
+    width: 238px;
+    height: 25px;
+    align-content: center;
+    background-color: #FFC107;
+    border: none;
+    cursor: pointer;
+    font-size: 14px;
+    margin: 6px;
+    color: #fff;
+}
+
+section .login a,
+section .cadastro a {
+    text-decoration: none;
+    color: #000000;
+    text-align: center;
+    align-content: center;
+    justify-content: center;
+    font-weight: 600;
+    font-size: 14px;
+    margin: 6px;
+}
+
+section.footer .container {
+    background-color:#FFBE51;
+    color: #000000;
+    font-size: 15px;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: center;
+    flex-wrap: wrap;
+    max-width: 100%;
+    margin-bottom: 0;
+}
+
+section.footer .container img {
+    align-items: center;
+    justify-content:center;
+    width: 300px;
+    max-width: 100%;
+}
+
+section.footer .contatos {
+    align-items: center;
+    max-width: 100%;
+    justify-content: center;
+}
+
+section.footer a {
+    text-decoration: none;
+    color:#000000;
+    cursor: pointer;
+    max-width: 100%;
+}
+
+section.footer .mapa iframe {
+    border: none;
+    align-items: center;
+    width: 500px;
+    height: 300px;
+    max-width: 100%;
+    justify-content:flex-end;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+footer .container {
+    background-color:#C4C4C4;
+    width: 100%;
+    max-width: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+footer .container p {
+    font-size: 16px;
+    text-align: center;
+    color:#000000;
+    align-content: center;
+    margin: 0;
+    padding: 15px;
+}
